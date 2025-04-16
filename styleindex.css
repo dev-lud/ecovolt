@@ -1,0 +1,403 @@
+/* Base styles (mobile-first) */
+.frame {
+    background-color: rgba(255, 255, 255, 1.0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+  }
+  
+  .frame .div {
+    background-color: rgba(255, 255, 255, 1.0);
+    overflow: hidden;
+    background: linear-gradient(
+      180deg,
+      rgba(222, 222, 222, 1) 0%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    width: 100%;
+    max-width: 393px;
+    min-height: 100vh;
+    position: relative;
+    padding: 20px;
+  }
+  
+  .frame .navbar {
+    width: 100%;
+    max-width: 215px;
+    margin-bottom: 30px;
+  }
+  
+  .frame .overlap-group {
+    position: relative;
+    width: 100%;
+  }
+
+  .frame .text-wrapper {
+    font-family: "Poppins", Helvetica;
+    font-weight: 700;
+    color: #0751c9;
+    font-size: 28px;
+    text-decoration: none; /* Remove o sublinhado, se quiser */
+  }
+  
+  .frame .text-wrapper-2 {
+    font-family: "Poppins", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 28px;
+    text-decoration: none; /* Remove o sublinhado, se quiser */
+  }
+  
+  .frame .overlap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .frame .rectangle {
+    width: 100%;
+    max-width: 393px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .frame .rectangle-2 {
+    width: 100%;
+    max-width: 403px;
+    background-color: #d9d9d9;
+    border-radius: 40px;
+    padding: 20px;
+    margin-top: -60px;
+  }
+  
+  .frame .div-2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .frame .enunciado {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    width: 100%;
+  }
+  
+  .frame .div-3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .frame .p {
+    font-family: var(--h5-font-family);
+    font-weight: var(--h5-font-weight);
+    color: #ffffff;
+    font-size: 18px;
+  }
+  
+  .frame .iconsax-linear {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .frame .text-wrapper-3 {
+    font-family: var(--caption-font-family);
+    font-weight: var(--caption-font-weight);
+    color: #ffffff;
+    font-size: var(--caption-font-size);
+  }
+  
+  .frame .line {
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 15px 0;
+  }
+  
+  .frame .BOTO {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .frame .div-4,
+  .frame .TELEVISO {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex: 1 1 calc(25% - 15px);
+    min-width: 60px;
+  }
+  
+  .frame .rectangle-3 {
+    width: 53px;
+    height: 53px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .frame .AR-CONDICIONADO,
+  .frame .iconsax-linear-2,
+  .frame .hugeicons,
+  .frame .iconoir-tv {
+    width: 34px;
+    height: 34px;
+  }
+  
+  .frame .text-wrapper-4,
+  .frame .text-wrapper-5 {
+    font-family: var(--caption-font-family);
+    font-weight: var(--caption-font-weight);
+    color: #ffffff;
+    font-size: var(--caption-font-size);
+    text-align: center;
+  }
+  
+  .frame .image {
+    width: 100%;
+    max-width: 317px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 7px 17.2px 11px #00000040;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    opacity: 0.34;
+    margin: 20px 0;
+  }
+  
+  .frame .fluent-ios-arrow {
+    width: 22px;
+    height: 29px;
+    align-self: flex-end;
+    margin-top: -40px;
+  }
+  
+  .frame .text-wrapper-6 {
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: #065bbc;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .frame .hoje-voc-consumiu,
+  .frame .text-wrapper-7,
+  .frame .text-wrapper-8 {
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .frame .text-wrapper-9 {
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 11px;
+    margin: 15px 0;
+  }
+  
+  .frame .rectangle-4 {
+    width: 100%;
+    max-width: 212px;
+    height: 65px;
+    background-color: #065bbc;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+  }
+  
+  .frame .text-wrapper-10 {
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+  }
+  
+  /* Media query for tablets */
+  @media screen and (min-width: 768px) {
+    .frame .div {
+      max-width: 600px;
+      padding: 30px;
+    }
+  
+    .frame .navbar {
+      max-width: 300px;
+    }
+  
+    .frame .text-wrapper,
+    .frame .text-wrapper-2 {
+      font-size: 32px;
+    }
+  
+    .frame .rectangle-2 {
+      border-radius: 60px;
+      padding: 30px;
+    }
+  
+    .frame .p {
+      font-size: 22px;
+    }
+  
+    .frame .BOTO {
+      gap: 30px;
+    }
+  
+    .frame .div-4,
+    .frame .TELEVISO {
+      flex: 1 1 calc(25% - 22.5px);
+    }
+  
+    .frame .rectangle-3 {
+      width: 70px;
+      height: 70px;
+    }
+  
+    .frame .AR-CONDICIONADO,
+    .frame .iconsax-linear-2,
+    .frame .hugeicons,
+    .frame .iconoir-tv {
+      width: 45px;
+      height: 45px;
+    }
+  
+    .frame .text-wrapper-4,
+    .frame .text-wrapper-5 {
+      font-size: 14px;
+    }
+  
+    .frame .text-wrapper-6 {
+      font-size: 24px;
+    }
+  
+    .frame .hoje-voc-consumiu,
+    .frame .text-wrapper-7,
+    .frame .text-wrapper-8 {
+      font-size: 18px;
+    }
+  
+    .frame .text-wrapper-9 {
+      font-size: 13px;
+    }
+  
+    .frame .rectangle-4 {
+      max-width: 250px;
+      height: 75px;
+    }
+  
+    .frame .text-wrapper-10 {
+      font-size: 18px;
+    }
+  }
+  
+  /* Media query for desktops */
+  @media screen and (min-width: 1024px) {
+    .frame .div {
+      max-width: 800px;
+      padding: 40px;
+    }
+  
+    .frame .navbar {
+      max-width: 400px;
+    }
+  
+    .frame .text-wrapper,
+    .frame .text-wrapper-2 {
+      font-size: 36px;
+    }
+  
+    .frame .rectangle-2 {
+      border-radius: 80px;
+      padding: 40px;
+    }
+  
+    .frame .p {
+      font-size: 26px;
+    }
+  
+    .frame .BOTO {
+      gap: 40px;
+    }
+  
+    .frame .div-4,
+    .frame .TELEVISO {
+      flex: 1 1 calc(25% - 30px);
+    }
+  
+    .frame .rectangle-3 {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .frame .AR-CONDICIONADO,
+    .frame .iconsax-linear-2,
+    .frame .hugeicons,
+    .frame .iconoir-tv {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .frame .text-wrapper-4,
+    .frame .text-wrapper-5 {
+      font-size: 16px;
+    }
+  
+    .frame .text-wrapper-6 {
+      font-size: 28px;
+    }
+  
+    .frame .hoje-voc-consumiu,
+    .frame .text-wrapper-7,
+    .frame .text-wrapper-8 {
+      font-size: 20px;
+    }
+  
+    .frame .text-wrapper-9 {
+      font-size: 15px;
+    }
+  
+    .frame .rectangle-4 {
+      max-width: 300px;
+      height: 85px;
+    }
+  
+    .frame .text-wrapper-10 {
+      font-size: 20px;
+    }
+
+  }
+
+  #imgAzul{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+  }
+  #divAzul{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    
+  }
+  

@@ -1,0 +1,146 @@
+:root {
+    --primary-color: #2d3776;
+    --text-color: #ffffff;
+    --button-bg: #ffffff;
+    --button-radius: 10px;
+    --spacing: 20px;
+  }
+  
+  body {
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .frame {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 600px;
+    padding: var(--spacing);
+  }
+  
+  header {
+    margin-bottom: var(--spacing);
+  }
+  
+  .group-2 {
+    display: flex;
+    align-items: center;
+  }
+
+  .weui-arrow-outlined {
+    width: 15px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .text-wrapper-11 {
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .a .text-wrapper-11 {
+    color: white; /* Deixa a palavra branca */
+    text-decoration: none; /* Remove o sublinhado, se quiser */
+  }
+  
+  .a:hover .text-wrapper-11 {
+    color: white; /* Continua branca ao passar o cursor */
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: var(--spacing);
+  }
+  
+  .button {
+    background-color: var(--button-bg);
+    border-radius: var(--button-radius);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .button:hover {
+    transform: scale(1.05);
+  }
+  
+  .icon-wrapper {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .button-text {
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .add-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: var(--spacing);
+  }
+  
+  .add-icon {
+    width: 56px;
+    height: 56px;
+    background-color: var(--button-bg);
+    border-radius: var(--button-radius);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .vector {
+    width: 38px;
+    height: 36px;
+  }
+  
+  .add-text {
+    font-size: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+ .group-2 {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
+    cursor: pointer;
+  }
+  
